@@ -3,7 +3,7 @@ import ListTemperature from "@/components/organisms/ListTemperature";
 
 export default function Home() {
   return (
-    <div className="flex flex-col h-screen bg-gradient-to-r from-blue-500 to-blue-700">
+    <div className="flex flex-col">
       <div className="flex flex-col items-center p-6 space-y-4 w-500 mx-auto">
         <h1 className="text-2xl font-semibold text-white">San Francisco</h1>
         <p className="text-sm text-gray-200">Monday, 12 April</p>
